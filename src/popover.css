@@ -1,0 +1,7 @@
+#mobile-menu:popover-open {
+  min-width: 200px;
+  position: fixed;
+  inset: unset;
+  right: 0;
+  top: 0;
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Agency landing page</title>
     <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="popover.css" />
   </head>
   <body>
     <header class="absolute top-0 left-0 right-0">
@@ -14,9 +15,35 @@
         </a>
 
         <!-- Mobile navigation -->
-        <button>
+        <button popovertarget="mobile-menu">
           <img src="/images/icon-hamburger.svg" alt="Hamburger menu" />
         </button>
+
+        <div popover id="mobile-menu" class="p-6">
+          <div class="flex justify-end">
+            <button
+              popovertarget="mobile-menu"
+              popovertargetaction="hide"
+              class="text-red-700"
+            >
+              X
+            </button>
+          </div>
+          <ul class="space-y-2 mt-4">
+            <li>
+              <a href="/">About</a>
+            </li>
+            <li>
+              <a href="/">Services</a>
+            </li>
+            <li>
+              <a href="/">Projects</a>
+            </li>
+            <li>
+              <a href="/">Contact</a>
+            </li>
+          </ul>
+        </div>
 
         <!-- Desktop navigation -->
         <ul class="hidden">
