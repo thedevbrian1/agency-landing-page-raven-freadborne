@@ -82,74 +82,106 @@
         <img src="/images/mobile/image-stand-out.jpg" alt="" />
       </div>
 
-      <div>
-        <h2>Graphic design</h2>
-        <p>
+      <div
+        class="bg-[url('/images/mobile/image-graphic-design.jpg')] bg-cover px-6 text-center pt-96 pb-12 text-emerald-800"
+      >
+        <h2 class="font-bold text-3xl">Graphic design</h2>
+        <p class="mt-6">
           Great design makes you memorable. We deliver artwork that underscores
           your brand message anc captures potential clients' attention.
         </p>
       </div>
 
-      <div>
-        <h2>Photography</h2>
-        <p>
+      <div
+        class="bg-[url('/images/mobile/image-photography.jpg')] bg-cover px-6 text-center pt-96 pb-12 text-cyan-900"
+      >
+        <h2 class="font-bold text-3xl">Photography</h2>
+        <p class="mt-6">
           Increase your credibility by getting the most stunning, high quality
           photos that improve your business image.
         </p>
       </div>
 
-      <div>
-        <h2>Client testimonials</h2>
-        <div>
-          <h3>Emily R</h3>
-          <p>Marketing director</p>
+      <!-- Testimonials -->
+      <div class="text-center px-6 py-16">
+        <h2 class="text-gray-500 uppercase font-bold">Client testimonials</h2>
+        <div class="flex flex-col gap-4 mt-4">
+          <div class="border border-black flex flex-col gap-5">
+            <div class="order-1">
+              <h3 class="font-bold text-xl">Emily R</h3>
+              <p class="mt-2 text-gray-500">Marketing director</p>
+            </div>
+            <div>
+              <img
+                src="/images/image-emily.jpg"
+                alt="Image of Emily R"
+                class="w-16 rounded-full mx-auto"
+              />
 
-          <img src="/images/image-emily.jpg" alt="Image of Emily R" />
+              <p class="mt-5 text-gray-800">
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+            </div>
+          </div>
 
-          <p>
-            We put our trust in Sunnyside and they delivered, making sure our
-            needs were met and deadlines were always hit.
-          </p>
-        </div>
+          <div class="border border-black flex flex-col gap-5">
+            <div class="order-1">
+              <h3 class="font-bold text-xl">Thomas S</h3>
+              <p class="mt-2 text-gray-500">Chief operating officer</p>
+            </div>
 
-        <div>
-          <h3>Thomas S</h3>
-          <p>Chief operating officer</p>
+            <div>
+              <img
+                src="/images/image-thomas.jpg"
+                alt="Image of Thomas S"
+                class="w-16 rounded-full mx-auto"
+              />
 
-          <img src="/images/image-thomas.jpg" alt="Image of Thomas S" />
+              <p class="mt-5 text-gray-800">
+                Sunnyside's enthusiasm coupled with their keen interest in our
+                brand's success made it a satisfying and enjoyable experience.
+              </p>
+            </div>
+          </div>
 
-          <p>
-            Sunnyside's enthusiasm coupled with their keen interest in our
-            brand's success made it a satisfying and enjoyable experience.
-          </p>
-        </div>
+          <div class="border border-black flex flex-col gap-5">
+            <div class="order-1">
+              <h3 class="font-bold text-xl">Jenny F</h3>
+              <p class="mt-2 text-gray-500">Business owner</p>
+            </div>
 
-        <div>
-          <h3>Jenny F</h3>
-          <p>Business owner</p>
+            <div>
+              <img
+                src="/images/image-jennie.jpg"
+                alt="Image of Jennie F"
+                class="w-16 rounded-full mx-auto"
+              />
 
-          <img src="/images/image-jennie.jpg" alt="Image of Jennie F" />
-
-          <p>
-            Incredible end result! Our sales increased over 400% when we worked
-            with Sunnyside. Highly recommended!
-          </p>
+              <p class="mt-5 text-gray-800">
+                Incredible end result! Our sales increased over 400% when we
+                worked with Sunnyside. Highly recommended!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div>
+      <div class="grid grid-cols-2">
         <img src="/images/mobile/image-gallery-milkbottles.jpg" alt="" />
-        <img src="/images/mobile/image-gallery-cone.jpg" alt="" />
         <img src="/images/mobile/image-gallery-orange.jpg" alt="" />
+        <img src="/images/mobile/image-gallery-cone.jpg" alt="" />
         <img src="/images/mobile/image-gallery-sugar-cubes.jpg" alt="" />
       </div>
     </main>
 
-    <footer>
+    <footer
+      class="bg-emerald-200 py-16 flex flex-col items-center gap-8 px-10 text-emerald-700"
+    >
       <a href="/">
         <img src="/images/logo.svg" alt="Sunnyside logo" />
       </a>
-      <ul>
+      <ul class="flex justify-between w-full">
         <li>
           <a href="/">About</a>
         </li>
@@ -161,7 +193,7 @@
         </li>
       </ul>
 
-      <ul>
+      <ul class="flex gap-4 mt-8">
         <li>
           <img src="/images/icon-twitter.svg" alt="Twitter icon" />
         </li>
